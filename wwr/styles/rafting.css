@@ -119,7 +119,7 @@ footer {
 }
 
 
-nav a:hover {
+header nav a:hover {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     border-radius: 5px; /* round borders */
