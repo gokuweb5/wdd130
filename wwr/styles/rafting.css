@@ -9,7 +9,7 @@
 
 header {
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -38,14 +38,7 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a {
-    text-decoration: none;
-}
-.socialmedia img {
-    width: 40px; 
-    height: auto; 
-    margin: 5px; 
-}
+
 .hero {
     position: relative;
 }
@@ -111,6 +104,11 @@ footer {
     padding: 20px;
 }
 
+.socialmedia img {
+    width: 40px; 
+    height: auto; 
+    margin: 5px; 
+}
 .socialmedia  {
     display: flex;
     gap: 15px;
@@ -120,7 +118,11 @@ footer {
     text-decoration: none;
 }
 
-.socialmedia img {
-    width: 30px;
-    height: auto;
+
+nav a:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    border-radius: 5px; /* round borders */
+    padding: 5px;       /* space */
+    transition: 0.3s;   /* animation*/
 }
