@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto 1rem auto;
+    border:  1px solid rgb (0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    margin: .5rem;
+}
+
+form {
+   
+    background-color: #ebebeb;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    color: #000;
+
+    /* --- WE ADD FLEXBOX --- */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+input, textarea, select, button {
+    padding: .75rem;
+    width: 350px;
+}
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 2rem auto 0 auto;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+code {
+    display: block;
+}
+
+.box {
+    width: 80%;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 / 10%); 
+    padding: 0.5rem;
+    background-color: #222;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+.quiz-item {
+    border: none;
+     /* --- WE ADD FLEXBOX --- */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
